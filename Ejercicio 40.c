@@ -11,5 +11,11 @@ int main() {
     } else {
         int esFibonacci = 0;  
 
+        while (segundo <= numero) {
+            if (segundo == numero) {
+                esFibonacci = 1; 
+                break;
+            }
+        }
     }
 }
