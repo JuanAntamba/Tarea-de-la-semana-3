@@ -17,6 +17,10 @@ int main() {
             suma = suma + numero;
             contador=contador+1;
         }
+    } while (numero != 0);
+
+    if (contador > 0) {
+        float promedio = (float)suma / contador;
+        printf("El promedio de los numeros terminados en 5 es: %.2f\n", promedio);
     }
 }
-
