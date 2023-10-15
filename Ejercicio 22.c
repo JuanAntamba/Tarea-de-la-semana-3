@@ -9,4 +9,13 @@ int main() {
     if (numero < 0) {
         numero = -numero; 
     }
+
+    while (numero > 0) {
+        int digito = numero % 10;
+        if (digito == 1) {
+            digitoUno=digitoUno+1;
+        }
+        numero = numero / 10; 
+    }
+
 }
