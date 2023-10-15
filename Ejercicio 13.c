@@ -13,8 +13,8 @@ int main() {
 
         for (int multiploDeCinco = 1; multiploDeCinco <= numero; multiploDeCinco=multiploDeCinco+1) {
             if (multiploDeCinco % 5 == 0) {
-                printf("%d ", multiploDeCinco);
-            }
+                printf("%d ", multiploDeCinco); }
         }
+        printf("\n");
     }
-}
+    return 0;}
