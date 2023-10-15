@@ -16,6 +16,9 @@ int main() {
                 esFibonacci = 1; 
                 break;
             }
+            siguiente = primero + segundo;
+            primero = segundo;
+            segundo = siguiente;
         }
     }
 }
