@@ -20,5 +20,13 @@ int main() {
             primero = segundo;
             segundo = siguiente;
         }
+
+        if (esFibonacci) {
+            printf("%d este numero pertenece a la serie de Fibonacci.\n", numero);
+        } else {
+            printf("%d este numero no pertenece a la serie de Fibonacci.\n", numero);
+        }
     }
+
+    return 0;
 }
