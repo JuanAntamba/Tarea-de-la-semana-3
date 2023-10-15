@@ -6,4 +6,7 @@ int main() {
     printf("Ingrese un numero entero: ");
     scanf("%d", &numero);
 
+    if (numero < 0) {
+        numero = -numero; 
+    }
 }
